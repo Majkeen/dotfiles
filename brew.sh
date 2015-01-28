@@ -58,4 +58,8 @@ brew cask install caffeine
 
 brew cask install utorrent
 
+brew cask install spotify
+
+brew cask install spotifybeta
+
 
