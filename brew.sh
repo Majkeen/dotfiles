@@ -48,10 +48,14 @@ brew cask install chromium --force
 
 brew cask install google-chrome-canary
 
+brew cask google-chrome
+
 brew cask install google-drive
 
 brew cask install flux
 
 brew cask install caffeine
+
+brew cask install utorrent
 
 

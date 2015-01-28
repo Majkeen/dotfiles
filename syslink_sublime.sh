@@ -1,8 +1,10 @@
 # Remove the "outdated" directories
-cd ~/.config/sublime-text-3/
+cd ~/Library/Application\ Support/Sublime\ Text\ 2/
 rm -rf Packages/
 rm -rf Installed\ Packages/
+rm -rf Settings/
 
 # Then symlink your Dropbox directories back locally
-ln -s ~/Dropbox/sublime-text-3/Packages/
-ln -s ~/Dropbox/sublime-text-3/Installed\ Packages/
+ln -s ~/Google\ Drive/Apps/Sublime/Packages/
+ln -s ~/Google\ Drive/Apps/Sublime/Installed\ Packages/
+ln -s ~/Google\ Drive/Apps/Sublime/Settings/
