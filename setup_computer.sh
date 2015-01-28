@@ -43,3 +43,6 @@ nvm install 0.10.36 && nvm use 0.10.36
 #Install Ruby
 rbenv install 2.2.0 && rbenv local 2.2.0 && rbenv rehash
 
+#Basic git-config
+git config --global user.name "Mikael Hallgren" && git config --global user.email hallgren.mikael@gmail.com
+
