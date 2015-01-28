@@ -50,5 +50,6 @@ brew cask install google-drive
 
 brew cask install flux
 
+brew cask install caffeine
 
 
