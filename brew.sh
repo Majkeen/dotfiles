@@ -40,7 +40,7 @@ brew cask install alfred
 
 brew cask install 1password
 
-brew cask install sublime-text
+brew cask install sublime-text3
 
 brew cask install chromium --force
 
