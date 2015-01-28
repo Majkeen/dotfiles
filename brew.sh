@@ -36,6 +36,8 @@ brew tap caskroom/versions
 
 brew cask install limechat
 
+brew cask install iterm2
+
 brew cask install alfred
 
 brew cask install 1password
