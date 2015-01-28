@@ -28,6 +28,8 @@ brew install homebrew/dupes/screen
 
 # Install native apps
 
+brew cask install vlc
+
 brew install caskroom/cask/brew-cask
 
 brew tap caskroom/versions
@@ -44,7 +46,9 @@ brew cask install chromium --force
 
 brew cask install google-chrome-canary
 
+brew cask install google-drive
+
 brew cask install flux
 
-brew cask install vlc
+
 
