@@ -1,5 +1,5 @@
 # Remove the "outdated" directories
-cd ~/Library/Application\ Support/Sublime\ Text\ 2/
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/
 rm -rf Packages/
 rm -rf Installed\ Packages/
 rm -rf Settings/

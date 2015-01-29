@@ -62,4 +62,6 @@ brew cask install spotify
 
 brew cask install spotifybeta
 
+brew cask install flowdock
+
 
