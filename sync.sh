@@ -1,8 +1,10 @@
 #!/bin/bash
 cd "$(dirname "$0")"
+
 git pull
 function doIt() {
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "sync.sh" --exclude "brew.sh" --exclude "setup_computer.sh" --exclude "README.md" -av . ~
+	# rsync --exclude ".git/" --exclude ".DS_Store" --exclude "sync.sh" --exclude "brew.sh" --exclude "setup_computer.sh" --exclude "README.md" -av . ~
+    ln -s configuration/* ~/
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt

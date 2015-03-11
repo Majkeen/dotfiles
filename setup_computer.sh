@@ -38,7 +38,7 @@ chsh -s $BASHPATH # will set for current user only.
 echo $BASH_VERSION # should be 4.x not the old 3.2.X
 
 #Install Node
-nvm install 0.10.36 && nvm use 0.10.36
+nvm install 0.12.0 && nvm use 0.12.0
 
 #Install Ruby
 rbenv install 2.2.0 && rbenv local 2.2.0 && rbenv rehash
