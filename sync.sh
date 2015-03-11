@@ -1,10 +1,19 @@
 #!/bin/bash
 cd "$(dirname "$0")"
+pwd
+ls
 
-git pull
+# git pull
 function doIt() {
 	# rsync --exclude ".git/" --exclude ".DS_Store" --exclude "sync.sh" --exclude "brew.sh" --exclude "setup_computer.sh" --exclude "README.md" -av . ~
-    ln -s configuration/* ~/
+    # ln -s configuration/* ~/
+    for f in $(ls -d ~/dotfiles/configuration/.??*); do
+        ln -sfn $f ~/;
+        echo $f;
+    done
+    unlink ~/.bash_profile
+    cp -i configuration/.bash_profile ~/
+    #&& ls -al /target
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt
