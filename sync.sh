@@ -13,7 +13,6 @@ function doIt() {
     done
     unlink ~/.bash_profile
     cp -i configuration/.bash_profile ~/
-    #&& ls -al /target
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt
