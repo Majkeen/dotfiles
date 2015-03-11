@@ -73,3 +73,6 @@
 # push easily. http://stackoverflow.com/a/23918418/89484
 [push]
 	default = current
+[user]
+	name = Mikael Hallgren
+	email = hallgren.mikael@gmail.com
