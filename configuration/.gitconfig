@@ -29,6 +29,7 @@
 [core]
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
+	editor = subl -n -w
 [color "branch"]
 	current = yellow reverse
 	local = yellow

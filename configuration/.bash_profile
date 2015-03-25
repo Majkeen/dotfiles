@@ -9,8 +9,8 @@ export NVM_DIR="/Users/mikaelhallgren/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-eval "nvm use 0.10.36"
-eval "rbenv local 2.2.0"
+eval "nvm use 0.12.0"
+eval "rbenv local 2.2.1"
 
 alias mongods='mongod --dbpath ~/srv/mongodb'
 alias sublime='subl .'
