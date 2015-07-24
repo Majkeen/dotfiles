@@ -11,11 +11,11 @@
         "esformatter-braces"
     ],
     "quotes": {
-        "type": "single",
+        "type": "double",
         "avoidEscape": false
     },
     "indent": {
-        "value": "    "  // four spaces, b.
+        "value": "  "  // four spaces, b.
     },
     "whiteSpace": {
         "before": {
