@@ -1,0 +1,7 @@
+$ =  you the end of the line, remains in command mode
+
+A = takes you the end of the line, switches to insert mode
+
+0 =  (zero) takes you the start of the line, remains in command mode
+
+I =  takes you the start of the line, switches to insert mode

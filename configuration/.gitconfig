@@ -21,11 +21,6 @@
 		fi \
 	}; f"
 
-
-
-[color]
-	ui = always
-
 [core]
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
