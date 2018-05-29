@@ -24,7 +24,7 @@
 [core]
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
-	editor = atom -n -w
+	editor = subl -n -w
 [color "branch"]
 	current = yellow reverse
 	local = yellow
@@ -71,4 +71,4 @@
 	default = current
 [user]
 	name = Mikael Hallgren
-	email = mikael.hallgren@detectify.com
+	email = hallgren.mikael@gmail.com
